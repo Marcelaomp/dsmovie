@@ -14,7 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Listing />} />
         <Route path="/form">
-          {/* recebe parâmetro -> movieId */}
+          {/* recebe parâmetro -> movieId, só quando tiver um id q vai para Form */}
+          {/* só /form não aparece nada de Form */}
           <Route path=":movieId" element={<Form />} />
         </Route>
       </Routes>
