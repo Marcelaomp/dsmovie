@@ -6,7 +6,7 @@ import { Movie } from "types/movie";
 // pegou css do Form
 
 type Props = {
-    movie: Movie;
+    movie : Movie;
 }
 
 function MovieCard({ movie } : Props) {
